@@ -19,19 +19,19 @@ public class Clase21 {
         
         bandera = valor1 < valor2;
         
-        System.out.printf("%s\n", bandera);
+        System.out.printf("El resultado de bandera es : %s\n", bandera);
         
         bandera = (valor1 < valor2) & (valor1 > valor2); // Producto lógico – \AND (binario)
         
-        System.out.printf("%s\n", bandera);
+        System.out.printf("El resultado de bandera usando AND : %s\n", bandera);
         
         bandera = (valor1 < valor2) | (valor1 > valor2);
         
-        System.out.printf("%s\n", bandera);
+        System.out.printf("El resiltado de bandera usando OR :%s\n", bandera);
         
         bandera = !((valor1 < valor2) | (valor1 > valor2)); // Negación - NOT (unario)
         
-        System.out.printf("%s\n", bandera);
+        System.out.printf("El resultado de bandera usando NOT :%s\n", bandera);
     }
     
 }
